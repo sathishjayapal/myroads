@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Properties;
 
 @SpringBootApplication
-
+@EnableBatchProcessing
 public class RoadForCosmosApplication implements CommandLineRunner {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RoadForCosmosApplication.class);
